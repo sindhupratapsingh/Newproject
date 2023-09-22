@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p>Sindhu</p>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="user_data_form">Register</a></li>
+        </ul>
+    </nav>
+        
+    <p1><b>Current Date-Time: </b>{{current_datetime}}</p1>
+    <p class="date-time"><b>Current Date-Time:</b> {{ current_datetime }}</p>
+
+  
+    <h1>Weather in Lucknow</h1>
+    
+    <div id="wwo-weather-widget-4"></div>
+    <script type='text/javascript' src='https://www.worldweatheronline.com/widget/v5/weather-widget.ashx?loc=1122691&wid=4&tu=1&div=wwo-weather-widget-4' async></script>
+    <noscript><a href="https://www.worldweatheronline.com/lucknow-weather/uttar-pradesh/in.aspx" alt="Hour by hour Lucknow, Uttar Pradesh weather">Lucknow, Uttar Pradesh weather forecast hourly</a></noscript>
+
+
+
+    <footer>
+        <p>Copyright &copy; <script>document.write(new Date().getfullYear()); </script> My Page     | Contact Us 9044300640</p>
+    </footer>
+
+</body>
+</html>
